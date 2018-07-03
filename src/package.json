@@ -1,0 +1,11 @@
+{
+  "name": "node-helloworld",
+  "version": "1.0.0",
+  "description": "node.jsのプログラムをdocker-composeで起動する用のサンプル",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,10 @@
+version: '2'
+services:
+  node:
+    image: library/node
+    container_name: node-helloworld
+    volumes:
+      - ./src:/src
+    working_dir: "/src"
+    command: "node index.js"
+    
